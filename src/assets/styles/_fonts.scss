@@ -1,0 +1,10 @@
+@font-face {
+    font-family: "Roboto";
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    font-style: normal;
+    src: local("Roboto"),
+         url("../fonts/roboto-light.ttf") format("ttf"),
+         url("../fonts/roboto-regular.ttf") format("ttf"),
+         url("../fonts/roboto-bold.ttf") format("ttf");
+  }

@@ -1,0 +1,27 @@
+.productPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none;
+
+  &Image {
+    width: 60vh;
+  }
+
+  &Title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+  }
+
+  &Desription {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &Price {
+    font-size: 30px;
+    color: green;
+    font-weight: bold;
+  }
+}

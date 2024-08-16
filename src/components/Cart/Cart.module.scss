@@ -1,0 +1,61 @@
+.cartList {
+  width: 750px;
+  margin: 80px auto;
+  background: #ffffff;
+  box-shadow: 1px 2px 3px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+
+  &TotalPrice {
+    text-align: end;
+    margin: 40px;
+    font-weight: bold;
+    color: darkgreen;
+    font-size: 20px;
+  }
+
+  &Title {
+    padding-bottom: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+  }
+
+  &Item {
+    padding: 20px 30px;
+    display: flex;
+    border-top: outset;
+
+    &Title {
+      height: 60px;
+      padding: 20px 120px;
+      color: #5e6977;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    &Delete {
+      position: relative;
+      margin-right: 60px;
+      display: inline-block;
+      cursor: pointer;
+      background-color: white;
+      border-style: none;
+    }
+
+    &Image {
+      margin-right: 50px;
+      width: 5vw;
+      height: 15vh;
+    }
+
+    &Price {
+      height: 60px;
+      padding: 20px 30px;
+      color: #5e6977;
+      font-size: 18px;
+      font-weight: 400;
+    }
+  }
+}

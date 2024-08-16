@@ -1,0 +1,9 @@
+@mixin block-shared {
+  display: block;
+  margin: auto;
+}
+
+@mixin button-shared {
+  font-weight: bold;
+  padding: 5px;
+}
